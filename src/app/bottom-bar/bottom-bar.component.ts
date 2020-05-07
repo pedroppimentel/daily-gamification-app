@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { goals } from '../goals';
 
 @Component({
   selector: 'app-bottom-bar',
@@ -13,6 +14,6 @@ export class BottomBarComponent implements OnInit {
   }
 
   addGoal() {
-    window.alert('In the future this func will add a new goal');
+    goals.push({name: "NAME ADDED WITH BUTTON", description: "DESC ADDED WITH BUTTON"});    
   }
 }

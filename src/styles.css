@@ -33,3 +33,8 @@ app-bottom-bar {
     justify-content: center;
     align-items: center;
 }
+
+app-page-goals {
+    display: flex;
+    width: 100%;
+}

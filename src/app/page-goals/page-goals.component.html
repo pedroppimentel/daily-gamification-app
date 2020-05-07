@@ -1,5 +1,6 @@
-<h2>Goals</h2>
-
-<section *ngFor="let goal of goals">
-    <h3> {{ goal.name }} : {{ goal.description }} </h3>
+<section class="container-goals">
+    <section class="goal-box" *ngFor="let goal of goals">
+        <h3> {{ goal.name }} </h3>
+        <p> {{ goal.description }} </p>
+    </section>  
 </section>
