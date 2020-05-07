@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.button, button {
+    display: inline-flex;
+    align-items: center;    
+    border-radius: 2px;
+    padding: 0 8px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.button:hover, button:hover {
+    opacity: 0.7;
+}
+
+app-bottom-bar {
+    background-color: #49A5FF;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 34px;
+    left: -5px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
